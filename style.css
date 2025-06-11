@@ -558,7 +558,7 @@ h3.my-profession{
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    display: block;
+    display:  block;
     margin: 0 auto 30px;
     text-align: center;
     transition: all 0.3s ease;
@@ -613,8 +613,8 @@ h3.my-profession{
 .portfolio .portfolio-item 
 {
     margin-bottom: 30px;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 .portfolio .portfolio-item .portfolio-item-inner
 {
@@ -623,6 +623,8 @@ h3.my-profession{
     border-radius: 10px;
     padding: 30px 15px;
     text-align: center;
+    height: 220px;
+   
     transition: all 0.3s ease;
 }
 
