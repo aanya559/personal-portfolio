@@ -343,6 +343,7 @@ h3.my-profession{
 {
     flex:0 0 100%;
     max-width: 100%;
+    color: var(--text-black-700);
  
 }
 .about .about-content .about-text h3{
@@ -451,6 +452,7 @@ h3.my-profession{
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 30px;
+    color: var(--text-black-700);
  
 
 }
@@ -579,22 +581,30 @@ h3.my-profession{
     font-size: 25px;
     color: #ffffff;
 }
-/* 
+
 .service .service-item .service-item-inner h4
 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: var(--bg-black-900);
+    color: var( --text-black-900);
     font-weight: 700;
     text-transform: capitalize;
 
-} */
+}
 .service .service-item .service-item-inner p
 {
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
 }
+
+.service .service-item .service-item-inner ul li
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+
 
 .portfolio .portfolio-heading
 {
@@ -624,7 +634,7 @@ h3.my-profession{
     padding: 30px 15px;
     text-align: center;
     height: 220px;
-   
+    color: var(--text-black-700);
     transition: all 0.3s ease;
 }
 
